@@ -62,4 +62,11 @@ set +e
 [[ -d ./db ]] && chgrp -R 0 ./db && chmod -R g+rw ./db
 set -e
 
+echo "listing files for fun"
+ls -tal
+echo "cause and error"
+
+echooooooooo
+gobletygook
+
 echo "----> CUSTOM S2I ASSEMBLE COMPLETE"
